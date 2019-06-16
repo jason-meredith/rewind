@@ -1,0 +1,22 @@
+.grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 240px));
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
+.card:hover {
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+    cursor: pointer;
+}
+
+.searchBar {
+    margin-bottom: 20px;
+}
+
+label input {
+    margin-right: 10px;
+}
